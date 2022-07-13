@@ -1,0 +1,192 @@
+@media(max-width: 400px){
+    body{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .title{
+        font-size: 27px;
+        line-height: 32px;
+        margin-left: 16px;
+    }
+    .container{
+        padding: 0;
+    }
+    .checkout__inner{
+        padding-top: 40px;
+    }
+    .settings__title{
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+    .settings-recipient__info__add{
+        font-size: 17px;
+        line-height: 21px;
+        margin-top: 12px;
+    }
+    .box-inner{
+        padding: 24px 16px 32px 16px;
+    }
+    .delivery__slider-item .delivery__slider-item__wrapper{
+        width: 300px;
+        height: 114px;
+        padding: 10px;
+    }
+    .delivery__slider-item .delivery__address{
+        line-height: 21px;
+    }
+    .checkout__box-inner{
+        border: none;
+        border-radius: 0;
+    }
+    .delivery__additional-charge{
+        display: none;
+    }
+    .delivery__mirror{
+        display: block;
+        margin-top: 3px;
+    }
+    .delivery__address{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .checkout__order-info{
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        min-height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        border-left: none;
+        width: 100%;
+    }
+    .order-info__summary{
+        width: auto;
+    }
+    .delivery__date-inner{
+        margin-top: 24px;
+    }
+    .delivery__date-item{
+        padding: 16px;
+        max-width: 130px;
+    }
+    .date__item-time{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .delivery__date-box{
+        display: block;
+    }
+    .settings-recipient__info__add.delivery__date-link{
+        margin-left: 0;
+    }
+    .delivery__checkbox-inner {
+        margin-top: 24px;
+    }
+    .delivery__checkbox-text{
+        max-width: 294px;
+        display: inline-block;
+    }
+    .settings-recipient__info-inner{
+        display: block;
+    }
+    .settings-recipient__info .info-select__label{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .settings-recipient__info .settings-recipient__info-select {
+        font-size: 17px;
+        line-height: 21px;
+        padding: 33px 37px 13px 16px;
+    }
+    .settings-recipient__info{
+        max-width: 328px;
+    }
+    .add__recipient-name{
+        position: absolute;
+        right: 0;
+        top: -43px;
+    }
+    .add__recipient-tel{
+        position: absolute;
+        right: -110px;
+        max-width: 100px;
+    }
+    .settings-recipient__info+.settings-recipient__info{
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    .settings-recipient__info.settings-phone {
+        max-width: 195px;
+    }
+    .checkout__footer-inner{
+        flex-direction: column-reverse;
+    }
+    .checkout__total-price__text,
+    .checkout__total-price .checkout__total-price__price{
+        font-size: 14px;
+        line-height: 18px;
+        font-family: "RootBold", sans-serif;
+        font-weight: 700;
+    }
+    .checkout__total-price .checkout__total-price__price{
+        margin-left: 3px;
+    }
+    .checkout__total-price{
+        justify-content: start;
+        align-items: center;
+    }
+    .checkout__footer-inner{
+        padding: 16px;
+    }
+    .total-price__details{
+        display: block;
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .checkout__total-price__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .checkout__btn {
+        padding: 16px 50px;
+    }
+    .delivery__slider-item{
+        max-width: 300px;
+    }
+    .delivery__slider{
+        max-width: 350px;
+    }
+    .slick-slide + .slick-slide{
+        margin-left: 10px;
+    }
+    .checkout__btn.checkout__order-info__btn{
+        position: fixed;
+        width: 368px;
+        bottom: 0;
+        margin: 0 auto;
+        margin-bottom: 16px;
+        text-align: center;
+        background: none;
+        background-color: #fff;
+        color: #333;
+        border: 1px solid #D6D6D6;
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04), 0px 2px 0px rgba(149, 135, 128, 0.4);
+        &::after{
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 110%;
+            background-color: #D6D6D6;
+            left: -20px;
+            top: -16px;
+        }
+    }
+    .order-info__summary.mobile{
+        display: block;
+    }
+}
